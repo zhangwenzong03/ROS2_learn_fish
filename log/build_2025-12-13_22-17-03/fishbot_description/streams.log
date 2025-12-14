@@ -1,0 +1,76 @@
+[0.249s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosking/chapt7/chapt7_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/rosking/chapt7/chapt7_ws/install/fishbot_description
+[0.437s] -- The C compiler identification is GNU 11.4.0
+[1.424s] -- The CXX compiler identification is GNU 11.4.0
+[1.940s] -- Detecting C compiler ABI info
+[2.214s] -- Detecting C compiler ABI info - done
+[2.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.220s] -- Detecting C compile features
+[2.220s] -- Detecting C compile features - done
+[2.222s] -- Detecting CXX compiler ABI info
+[2.462s] -- Detecting CXX compiler ABI info - done
+[2.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.466s] -- Detecting CXX compile features
+[2.466s] -- Detecting CXX compile features - done
+[2.473s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.548s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.608s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.653s] -- Added test 'lint_cmake' to check CMake code style
+[2.654s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.655s] -- Added test 'xmllint' to check XML markup files
+[2.656s] -- Configuring done
+[2.658s] -- Generating done
+[2.659s] -- Build files have been written to: /home/rosking/chapt7/chapt7_ws/build/fishbot_description
+[2.661s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosking/chapt7/chapt7_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/rosking/chapt7/chapt7_ws/install/fishbot_description
+[2.663s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosking/chapt7/chapt7_ws/build/fishbot_description -- -j28 -l28
+[2.678s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosking/chapt7/chapt7_ws/build/fishbot_description -- -j28 -l28
+[2.682s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosking/chapt7/chapt7_ws/build/fishbot_description
+[2.685s] -- Install configuration: ""
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[2.685s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[2.686s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf.xacro
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config/rviz
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config/rviz/dispaly_model.rviz
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[2.687s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[2.688s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[2.689s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/fishbot_description/share/fishbot_description/package.xml
+[2.690s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosking/chapt7/chapt7_ws/build/fishbot_description

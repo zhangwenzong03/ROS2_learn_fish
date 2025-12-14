@@ -1,0 +1,238 @@
+[0.133s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosking/chapt7/chapt7_ws/src/autopatol_interfaces -DCMAKE_INSTALL_PREFIX=/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces
+[0.358s] -- The C compiler identification is GNU 11.4.0
+[1.654s] -- The CXX compiler identification is GNU 11.4.0
+[2.341s] -- Detecting C compiler ABI info
+[2.554s] -- Detecting C compiler ABI info - done
+[2.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.558s] -- Detecting C compile features
+[2.558s] -- Detecting C compile features - done
+[2.560s] -- Detecting CXX compiler ABI info
+[2.852s] -- Detecting CXX compiler ABI info - done
+[2.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.856s] -- Detecting CXX compile features
+[2.857s] -- Detecting CXX compile features - done
+[2.858s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.931s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.975s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.983s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.529s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.131s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.133s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.146s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.146s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.146s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.157s] -- Found PythonExtra: .so  
+[5.243s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.254s] -- Added test 'lint_cmake' to check CMake code style
+[5.254s] -- Added test 'xmllint' to check XML markup files
+[5.255s] -- Configuring done
+[5.271s] -- Generating done
+[5.276s] -- Build files have been written to: /home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces
+[5.280s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosking/chapt7/chapt7_ws/src/autopatol_interfaces -DCMAKE_INSTALL_PREFIX=/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces
+[5.281s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces -- -j28 -l28
+[5.297s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.301s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.305s] [  6%] Built target ament_cmake_python_copy_autopatol_interfaces
+[5.419s] running egg_info
+[5.420s] creating autopatol_interfaces.egg-info
+[5.420s] writing autopatol_interfaces.egg-info/PKG-INFO
+[5.420s] writing dependency_links to autopatol_interfaces.egg-info/dependency_links.txt
+[5.420s] writing top-level names to autopatol_interfaces.egg-info/top_level.txt
+[5.420s] writing manifest file 'autopatol_interfaces.egg-info/SOURCES.txt'
+[5.422s] reading manifest file 'autopatol_interfaces.egg-info/SOURCES.txt'
+[5.422s] writing manifest file 'autopatol_interfaces.egg-info/SOURCES.txt'
+[5.437s] [  6%] Built target ament_cmake_python_build_autopatol_interfaces_egg
+[5.446s] [  6%] Built target autopatol_interfaces__cpp
+[5.452s] [  9%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatol_interfaces/srv/detail/speech_text__functions.c.o[0m
+[5.453s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.453s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.453s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.508s] [ 22%] [32m[1mLinking C shared library libautopatol_interfaces__rosidl_generator_c.so[0m
+[5.566s] [ 25%] [32mBuilding CXX object CMakeFiles/autopatol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[5.578s] [ 29%] [32mBuilding CXX object CMakeFiles/autopatol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatol_interfaces/srv/detail/speech_text__type_support.cpp.o[0m
+[5.581s] [ 32%] [32mBuilding CXX object CMakeFiles/autopatol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o[0m
+[5.710s] [ 32%] Built target autopatol_interfaces__rosidl_generator_c
+[5.713s] [ 35%] [32m[1mLinking CXX shared library libautopatol_interfaces__rosidl_typesupport_cpp.so[0m
+[5.715s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.715s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.715s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.777s] [ 48%] [32m[1mLinking CXX shared library libautopatol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.793s] [ 51%] [32m[1mLinking CXX shared library libautopatol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.833s] [ 54%] [32mBuilding CXX object CMakeFiles/autopatol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[5.845s] [ 58%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatol_interfaces/srv/detail/speech_text__type_support.c.o[0m
+[5.846s] [ 61%] [32mBuilding CXX object CMakeFiles/autopatol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatol_interfaces/srv/detail/speech_text__type_support_c.cpp.o[0m
+[5.848s] [ 64%] [32m[1mLinking CXX shared library libautopatol_interfaces__rosidl_typesupport_c.so[0m
+[5.861s] [ 67%] [32m[1mLinking C shared library libautopatol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.957s] [ 67%] Built target autopatol_interfaces__rosidl_typesupport_cpp
+[5.991s] [ 70%] [32m[1mLinking CXX shared library libautopatol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.065s] [ 70%] Built target autopatol_interfaces__rosidl_typesupport_introspection_cpp
+[6.068s] [ 70%] Built target autopatol_interfaces__rosidl_typesupport_c
+[6.083s] [ 70%] Built target autopatol_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.110s] [ 70%] Built target autopatol_interfaces__rosidl_typesupport_introspection_c
+[6.233s] [ 70%] Built target autopatol_interfaces__rosidl_typesupport_fastrtps_c
+[6.242s] [ 70%] Built target autopatol_interfaces
+[6.250s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.406s] [ 74%] Built target autopatol_interfaces__py
+[6.414s] [ 77%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatol_interfaces/srv/_speech_text_s.c.o[0m
+[6.484s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatol_interfaces/libautopatol_interfaces__rosidl_generator_py.so[0m
+[7.305s] [ 80%] Built target autopatol_interfaces__rosidl_generator_py
+[7.310s] gmake[2]: Warning: File 'libautopatol_interfaces__rosidl_typesupport_fastrtps_c.so' has modification time 5.6 s in the future
+[7.310s] gmake[2]: Warning: File 'libautopatol_interfaces__rosidl_typesupport_introspection_c.so' has modification time 5.5 s in the future
+[7.313s] [ 87%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.313s] [ 87%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.313s] [ 90%] [32mBuilding C object CMakeFiles/autopatol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.357s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.357s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.357s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.496s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.496s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.499s] [100%] Built target autopatol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.499s] [100%] Built target autopatol_interfaces__rosidl_typesupport_c__pyext
+[7.499s] [100%] Built target autopatol_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.504s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces -- -j28 -l28
+[7.505s] Invoking command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces
+[7.508s] -- Install configuration: ""
+[7.508s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatol_interfaces
+[7.508s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/speech_text.h
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__type_support.h
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__functions.c
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__functions.h
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__struct.h
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/library_path.sh
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/library_path.dsv
+[7.509s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_generator_c.so
+[7.509s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_generator_c.so" to ""
+[7.509s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.509s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.510s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.510s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__type_support.c
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_introspection_c.so
+[7.510s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.510s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_c.so
+[7.511s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_c.so" to ""
+[7.511s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.511s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.511s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/speech_text.hpp
+[7.511s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__traits.hpp
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__struct.hpp
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__builder.hpp
+[7.511s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__type_support.hpp
+[7.511s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/dds_fastrtps
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.512s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv
+[7.512s] -- Up-to-date: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[7.512s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/include/autopatol_interfaces/autopatol_interfaces/srv/detail/speech_text__type_support.cpp
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.513s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_cpp.so
+[7.513s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/pythonpath.sh
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/pythonpath.dsv
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces-0.0.0-py3.10.egg-info
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_c.c
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/libautopatol_interfaces__rosidl_generator_py.so
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/__init__.py
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/_autopatol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv/_speech_text.py
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv/__init__.py
+[7.513s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv/_speech_text_s.c
+[7.530s] Listing '/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces'...
+[7.530s] Compiling '/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/__init__.py'...
+[7.530s] Listing '/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv'...
+[7.530s] Compiling '/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv/__init__.py'...
+[7.530s] Compiling '/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/srv/_speech_text.py'...
+[7.533s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.533s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.533s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.533s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.533s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.533s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/local/lib/python3.10/dist-packages/autopatol_interfaces/autopatol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_generator_py.so
+[7.534s] -- Set runtime path of "/home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/lib/libautopatol_interfaces__rosidl_generator_py.so" to ""
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/srv/SpeechText.idl
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/srv/SpeechText.srv
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/srv/SpeechText_Request.msg
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/srv/SpeechText_Response.msg
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatol_interfaces
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatol_interfaces
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/ament_prefix_path.sh
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/ament_prefix_path.dsv
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/path.sh
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/environment/path.dsv
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/local_setup.bash
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/local_setup.sh
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/local_setup.zsh
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/local_setup.dsv
+[7.534s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/package.dsv
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/ament_index/resource_index/packages/autopatol_interfaces
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_generator_cExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_cExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_generator_cppExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.535s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_cppExport.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_generator_pyExport.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/export_autopatol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfacesConfig.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/cmake/autopatol_interfacesConfig-version.cmake
+[7.536s] -- Installing: /home/rosking/chapt7/chapt7_ws/install/autopatol_interfaces/share/autopatol_interfaces/package.xml
+[7.537s] Invoked command in '/home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosking/chapt7/chapt7_ws/build/autopatol_interfaces
